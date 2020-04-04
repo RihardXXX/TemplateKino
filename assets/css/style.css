@@ -21,6 +21,11 @@ h1, h2 {
     color: #000;
 }
 
+hr {
+    border: solid 1px #f3f3f3;
+    width: 600px;
+}
+
 h2 {
     font-size: 140%;
 }
@@ -172,6 +177,31 @@ ul.menu li a:hover {
 
 .rating-movi {
     float: right;
+}
+
+.content {
+    text-align: left;
+    width: 620px;
+    padding: 0 0 0 5px;
+    float: left;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.film_block {
+    margin-bottom: 5%;
+}
+
+.film_block img {
+    border-radius: 5px;
+    border: solid 5px #dad7d5;
+    width: 22%;
+}
+
+.posts .post_content {
+    font-size: 0.8em;
 }
 
 .footer {
