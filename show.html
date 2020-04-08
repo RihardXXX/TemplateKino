@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Описание</title>
     <meta name="description" content="Киношки - это портал по просмотру фильмов">
     <meta name="keywords" content="фильмы, фильмы онлайн, сериалы">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
+
 <body>
 
     <div class="main">
@@ -21,11 +23,11 @@
             </div>
             <div class="menubar">
                 <ul class="menu">
-                    <li class="selected"><a href="#">Главная</a></li>
-                    <li><a href="#">Фильмы</a></li>
+                    <li><a href="index.html">Главная</a></li>
+                    <li class="selected"><a href="films.html">Фильмы</a></li>
                     <li><a href="#">Сериалы</a></li>
-                    <li><a href="#">Рейтинг фильмов</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li><a href="rating.html">Рейтинг фильмов</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
                 </ul>
             </div>
         </div>
@@ -62,7 +64,7 @@
                 <div class="sidebar">
                     <h2>Рейтинг фильмов</h2>
                     <ul>
-                        <li><a href="#">Интерстеллар</a><span class="rating-movi">8.8</span></li>
+                        <li><a href="show.html">Интерстеллар</a><span class="rating-movi">8.8</span></li>
                         <li><a href="#">Матрица</a><span class="rating-movi">8.6</span></li>
                         <li><a href="#">Безумный Макс</a><span class="rating-movi">8.4</span></li>
                         <li><a href="#">Облачный Атлас</a><span class="rating-movi">7.2</span></li>
@@ -72,17 +74,21 @@
 
             <div class="content">
                 <h1>Интерстеллар</h1>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/qcPfI0y7wRU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qcPfI0y7wRU" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
                 <div class="info_film_page">
-                    <span class="label"">рейтинг: </span><span class="value">8.1 / 10</span>
-                    <span class="label"">год: </span><span class="value">2014</span>
-                    <span class="label"">режиссёр: </span><span class="value">Кристофер Ноллан</span>
+                    <span class="label"">рейтинг: </span><span class=" value">8.1 / 10</span>
+                    <span class="label"">год: </span><span class=" value">2014</span>
+                    <span class="label"">режиссёр: </span><span class=" value">Кристофер Ноллан</span>
                 </div>
                 <hr>
                 <h2>Описание Интерстеллар</h2>
                 <div class="description_film">
                     <img src="/assets/img/inter.png" alt="">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolor quaerat soluta fugiat sunt tenetur cumque a libero, cupiditate praesentium expedita dolores? Nemo aliquid voluptates mollitia molestiae beatae qui non?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolor quaerat soluta fugiat sunt
+                    tenetur cumque a libero, cupiditate praesentium expedita dolores? Nemo aliquid voluptates mollitia
+                    molestiae beatae qui non?
                 </div>
                 <hr>
                 <h2>отзывы об Интерстеллар</h2>
@@ -95,22 +101,22 @@
                     </div>
                 </div>
 
-            <div class="reviews">
-                <div class="review_name">
-                    Антон
+                <div class="reviews">
+                    <div class="review_name">
+                        Антон
+                    </div>
+                    <div class="review_text">
+                        Я Антон по имени Гандон
+                    </div>
                 </div>
-                <div class="review_text">
-                    Я Антон по имени Гандон
-                </div>
-            </div>
 
-            <div class="send">
-                <form method="POST" action="#" id="review">
-                    <input type="text" name="review_name" placeholder="ваше имя">
-                    <textarea name="review_text" id="" cols="30" rows="10"></textarea>
-                    <input type="submit" value="отправить">
-                </form>
-            </div>
+                <div class="send">
+                    <form method="POST" action="#" id="review">
+                        <input type="text" name="review_name" placeholder="ваше имя">
+                        <textarea name="review_text" id="" cols="30" rows="10"></textarea>
+                        <input type="submit" value="отправить">
+                    </form>
+                </div>
 
             </div>
 
@@ -130,4 +136,5 @@
     </div>
 
 </body>
+
 </html>
